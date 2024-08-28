@@ -1,8 +1,11 @@
-import React from 'react'
+
 
 const AboutView = () => {
   return (
-    <div>AboutView</div>
+   <> 
+      <div>AboutView</div>
+      <h2>hello</h2>
+    </>
   )
 }
 
