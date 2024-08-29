@@ -1,4 +1,4 @@
-import React from 'react'
+import { Link } from 'react-router-dom';
 import "./header.css"
 
 const Header = () => {
@@ -14,17 +14,16 @@ const Header = () => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarCollapse">
                     <div className="navbar-nav ms-auto py-0">
-                        <a href="/" className="nav-item nav-link active">Trang chủ</a>
-                        <a href="/about" className="nav-item nav-link">Về chúng tôi</a>
-                        <a href="service" className="nav-item nav-link">Dịch vụ</a>
-                        <a href="price" className="nav-item nav-link">Gói</a>
+                        <Link to="/" className="nav-item nav-link active">Trang chủ</Link>
+                        <Link to="/about" className="nav-item nav-link">Về chúng tôi</Link>
+                        <Link to="service" className="nav-item nav-link">Dịch vụ</Link>
+                        <Link to="price" className="nav-item nav-link">Gói</Link>
                         <div className="nav-item dropdown">
-                            <a href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Khác</a>
-                            
-                            <div className="dropdown-menu m-0"> <a href="blog.html" className="dropdown-item">Bảng tin</a> <a href="detail.html" className="dropdown-item">Hoạt Động</a> <a href="team.html" className="dropdown-item">Đội ngũ chuyên môn</a> <a href="testimonial.html" className="dropdown-item">Đánh giá</a> <a href="appointment.html" className="dropdown-item">Đặt lịch khám</a> <a href="search.html" className="dropdown-item">Tìm kiếm</a> </div>
+                            <Link to="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Khác</Link>                       
+                            <div className="dropdown-menu m-0"> <Link to="blog.html" className="dropdown-item">Bảng tin</Link> <Link to="detail.html" className="dropdown-item">Hoạt Động</Link> <Link to="team.html" className="dropdown-item">Đội ngũ chuyên môn</Link> <Link to="testimonial.html" className="dropdown-item">Đánh giá</Link> <Link to="appointment.html" className="dropdown-item">Đặt lịch khám</Link> <Link to="search.html" className="dropdown-item">Tìm kiếm</Link> </div>
                         </div>
-                        <a href="contact" className="nav-item nav-link">Liên hệ</a>
-                        <a href="signin" className='nav-item nav-link mx-4'>Đăng nhập</a>
+                        <Link to="contact" className="nav-item nav-link">Liên hệ</Link>
+                        <Link to="signin" className='nav-item nav-link mx-4'>Đăng nhập</Link>
                     </div>
                 </div>
             </nav>
