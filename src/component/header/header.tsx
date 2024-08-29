@@ -24,6 +24,7 @@ const Header = () => {
                             <div className="dropdown-menu m-0"> <a href="blog.html" className="dropdown-item">Bảng tin</a> <a href="detail.html" className="dropdown-item">Hoạt Động</a> <a href="team.html" className="dropdown-item">Đội ngũ chuyên môn</a> <a href="testimonial.html" className="dropdown-item">Đánh giá</a> <a href="appointment.html" className="dropdown-item">Đặt lịch khám</a> <a href="search.html" className="dropdown-item">Tìm kiếm</a> </div>
                         </div>
                         <a href="contact" className="nav-item nav-link">Liên hệ</a>
+                        <a href="signin" className='nav-item nav-link mx-4'>Đăng nhập</a>
                     </div>
                 </div>
             </nav>
