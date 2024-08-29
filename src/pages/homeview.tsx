@@ -24,7 +24,7 @@ const HomeView = () => {
               <div className="row gx-5">
                   <div className="col-lg-5 mb-5 mb-lg-0" style={{minHeight:"500px"}}>
                       <div className="position-relative h-100">
-                          <img className="position-absolute w-100 h-100 rounded" src="img/about.jpg" style={{objectFit:"cover"}}/>
+                          <img className="position-absolute w-100 h-100 rounded" src="/src/assets/img/about.jpg" style={{objectFit:"cover"}}/>
                       </div>
                   </div>
                   <div className="col-lg-7">
