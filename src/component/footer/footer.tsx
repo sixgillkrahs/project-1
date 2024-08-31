@@ -17,12 +17,7 @@ const Footer = () => {
               <div className="col-lg-3 col-md-6">
                 <h4 className="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Truy cập nhanh&nbsp;</h4>
                 <div className="d-flex flex-column justify-content-start"> <a className="text-light mb-2" href="#"><i className="fa fa-angle-right me-2"></i>Trang chủ</a> <a className="text-light mb-2" href="#"><i className="fa fa-angle-right me-2"></i>Về chúng tôi</a> <a className="text-light mb-2" href="#"><i className="fa fa-angle-right me-2"></i>&nbsp;Dịch vụ&nbsp; &nbsp;</a> <a className="text-light mb-2" href="#"><i className="fa fa-angle-right me-2"></i>&nbsp;Đội ngũ chuyên môn</a> <a className="text-light mb-2" href="#"><i className="fa fa-angle-right me-2"></i>Thông tin hoạt động</a> <a className="text-light" href="#"><i className="fa fa-angle-right me-2"></i>Thông tin liên hệ</a> </div>
-              </div>
-              <div className="col-lg-3 col-md-6">
-                <h4 className="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Bản tin&nbsp;</h4>
-                <h6 className="text-primary text-uppercase mt-4 mb-3">Kết nối với chúng tôi&nbsp;</h6>
-                <div className="d-flex"> <a className="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i className="fab fa-twitter"></i></a> <a className="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i className="fab fa-facebook-f"></i></a> <a className="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i className="fab fa-linkedin-in"></i></a> <a className="btn btn-lg btn-primary btn-lg-square rounded-circle" href="#"><i className="fab fa-instagram"></i></a> </div>
-              </div>
+              </div>  
             </div>
         </div>
     </div>
@@ -30,7 +25,7 @@ const Footer = () => {
         <div className="container">
             <div className="row g-5">
                 <div className="col-md-6 text-center text-md-start">
-<p className="mb-md-0">&copy; <a className="text-primary" href="#">2024 bản quyền thuộc về</a>&nbsp;Wingman Medical Clinic</p>
+                <p className="mb-md-0">&copy; <a className="text-primary" href="#">2024 bản quyền thuộc về</a>&nbsp;Wingman Medical Clinic</p>
                 </div>
                 <div className="col-md-6 text-center text-md-end">
                     <p className="mb-0"><a className="text-primary" href="https://htmlcodex.com">&nbsp;</a></p>

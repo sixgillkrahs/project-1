@@ -8,7 +8,7 @@ const AboutView = () => {
             <div className="row gx-5">
                 <div className="col-lg-5 mb-5 mb-lg-0" style={{minHeight: "500px"}}>
                     <div className="position-relative h-100">
-                        <img className="position-absolute w-100 h-100 rounded" src="img/about.jpg" style={{objectFit:"cover"}}/>
+                        <img className="position-absolute w-100 h-100 rounded" src="/src/assets/img/about.jpg" style={{objectFit:"cover"}}/>
                     </div>
                 </div>
                 <div className="col-lg-7">
@@ -72,7 +72,7 @@ const AboutView = () => {
             <div className="owl-carousel team-carousel position-relative">
 <div className="team-item">
         <div className="row g-0 bg-light rounded overflow-hidden">
-                  <div className="col-12 col-sm-5 h-100"> <img className="img-fluid h-100" src="img/BSToan.jpg" style={{objectFit:"cover"}}/> </div>
+                  <div className="col-12 col-sm-5 h-100"> <img className="img-fluid h-100" src="/src/assets/img/BSToan.jpg" style={{objectFit:"cover"}}/> </div>
                   <div className="col-12 col-sm-7 h-100 d-flex flex-column">
                     <div className="mt-auto p-4">
                       <h3>Bác sĩ Nguyễn Huy Toàn</h3>
@@ -85,7 +85,7 @@ const AboutView = () => {
               </div>
 <div className="team-item">
   <div className="row g-0 bg-light rounded overflow-hidden">
-    <div className="col-12 col-sm-5 h-100"> <img className="img-fluid h-100" src="img/BSPhanAnh.jpg" style={{objectFit:"cover"}}/></div>
+    <div className="col-12 col-sm-5 h-100"> <img className="img-fluid h-100" src="/src/assets/img/BSPhanAnh.jpg" style={{objectFit:"cover"}}/></div>
     <div className="col-12 col-sm-7 h-100 d-flex flex-column">
       <div className="mt-auto p-4">
         <h3>Tiến sĩ, Bác sĩ Nguyễn Phan Anh</h3>
@@ -99,7 +99,7 @@ const AboutView = () => {
                 <div className="team-item">
                     <div className="row g-0 bg-light rounded overflow-hidden">
                         <div className="col-12 col-sm-5 h-100">
-                            <img className="img-fluid h-100" src="img/BSGiang.jpg" style={{objectFit:"cover"}}/>
+                            <img className="img-fluid h-100" src="/src/assets/img/BSGiang.jpg" style={{objectFit:"cover"}}/>
                         </div>
                         <div className="col-12 col-sm-7 h-100 d-flex flex-column">
                             <div className="mt-auto p-4">
@@ -118,7 +118,7 @@ const AboutView = () => {
                 <div className="team-item">
                     <div className="row g-0 bg-light rounded overflow-hidden">
                         <div className="col-12 col-sm-5 h-100">
-                            <img className="img-fluid h-100" src="img/BSCuong.jpg" style={{objectFit:"cover"}}/>
+                            <img className="img-fluid h-100" src="/src/assets/img/BSCuong.jpg" style={{objectFit:"cover"}}/>
                         </div>
                         <div className="col-12 col-sm-7 h-100 d-flex flex-column">
                             <div className="mt-auto p-4">
@@ -137,7 +137,7 @@ const AboutView = () => {
                 <div className="team-item">
                     <div className="row g-0 bg-light rounded overflow-hidden">
                         <div className="col-12 col-sm-5 h-100">
-                            <img className="img-fluid h-100" src="img/BSThuy.jpg" style={{objectFit:"cover"}}/>
+                            <img className="img-fluid h-100" src="/src/assets/img/BSThuy.jpg" style={{objectFit:"cover"}}/>
                         </div>
                         <div className="col-12 col-sm-7 h-100 d-flex flex-column">
                             <div className="mt-auto p-4">

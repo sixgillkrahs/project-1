@@ -13,7 +13,7 @@ const Priceview = () => {
         </div>
         <div className="owl-carousel price-carousel position-relative" style={{padding: "0 45px 45px 45px"}}>
           <div className="bg-light rounded text-center">
-            <div className="position-relative"> <img className="img-fluid rounded-top" src="img/price-1.jpg" alt=""/>
+            <div className="position-relative"> <img className="img-fluid rounded-top" src="/src/assets/img/price-1.jpg" alt=""/>
               <div className="position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center" style={{backgroundColor :'rgba(29, 42, 77, .8)'}}>
                 <h3 className="text-white">Thành viên 0-18 tuổi</h3>
                 <h1 className="display-4 text-white mb-0"> <small className="align-top fw-normal" style={{fontSize :"22px", lineHeight:"45px"}}></small>12M<small className="align-bottom fw-normal" style={{fontSize:"16px", lineHeight:"40px"}}>/năm</small> </h1>
@@ -28,7 +28,7 @@ const Priceview = () => {
               <a href="" className="btn btn-primary rounded-pill py-3 px-5 my-2">Đăng ký ngay</a> </div>
           </div>
           <div className="bg-light rounded text-center">
-            <div className="position-relative"> <img className="img-fluid rounded-top" src="img/price-2.jpg" alt=""/>
+            <div className="position-relative"> <img className="img-fluid rounded-top" src="/src/assets/img/price-2.jpg" alt=""/>
               <div className="position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center" style={{backgroundColor :'rgba(29, 42, 77, .8)'}}>
                 <h3 className="text-white">Thành viên 18-65 tuổi</h3>
                 <h1 className="display-4 text-white mb-0"> <small className="align-top fw-normal" style={{fontSize :"22px", lineHeight:"45px"}}></small>18M<small className="align-bottom fw-normal" style={{fontSize:"16px", lineHeight:"40px"}}>/năm</small> </h1>
@@ -43,7 +43,7 @@ const Priceview = () => {
               <a href="" className="btn btn-primary rounded-pill py-3 px-5 my-2">Đăng ký ngay</a> </div>
           </div>
           <div className="bg-light rounded text-center">
-            <div className="position-relative"> <img className="img-fluid rounded-top" src="img/price-3.jpg" alt=""/>
+            <div className="position-relative"> <img className="img-fluid rounded-top" src="/src/assets/img/price-3.jpg" alt=""/>
               <div className="position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center" style={{backgroundColor :'rgba(29, 42, 77, .8)'}}>
                 <h3 className="text-white">Thành viên trên 65 tuổi</h3>
                 <h1 className="display-4 text-white mb-0"> <small className="align-top fw-normal" style={{fontSize :"22px", lineHeight:"45px"}}></small>20M<small className="align-bottom fw-normal" style={{fontSize:"16px", lineHeight:"40px"}}>/năm</small> </h1>
@@ -58,7 +58,7 @@ const Priceview = () => {
               <a href="" className="btn btn-primary rounded-pill py-3 px-5 my-2">Đăng ký ngay</a> </div>
           </div>
           <div className="bg-light rounded text-center">
-            <div className="position-relative"> <img className="img-fluid rounded-top" src="img/price-4.jpg" alt=""/>
+            <div className="position-relative"> <img className="img-fluid rounded-top" src="/src/assets/img/price-4.jpg" alt=""/>
               <div className="position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center" style={{backgroundColor :'rgba(29, 42, 77, .8)'}}>
                 <h3 className="text-white">VIPcare</h3>
                 <h1 className="display-4 text-white mb-0"> <small className="align-top fw-normal" style={{fontSize:"22px", lineHeight:"45px"}}>$</small>2.500<small className="align-bottom fw-normal" style={{fontSize:"16px", lineHeight:"40px"}}>/năm</small> </h1>
@@ -152,7 +152,7 @@ const Priceview = () => {
         <div className="owl-carousel team-carousel position-relative">
           <div className="team-item">
             <div className="row g-0 bg-light rounded overflow-hidden">
-              <div className="col-12 col-sm-5 h-100"> <img className="img-fluid h-100" src="img/BSPhanAnh.jpg" style={{objectFit: "cover"}}/></div>
+              <div className="col-12 col-sm-5 h-100"> <img className="img-fluid h-100" src="/src/assets/img/BSPhanAnh.jpg" style={{objectFit: "cover"}}/></div>
               <div className="col-12 col-sm-7 h-100 d-flex flex-column">
                 <div className="mt-auto p-4">
                   <h3>Tiến sĩ, Bác sĩ Nguyễn Phan Anh</h3>
@@ -165,7 +165,7 @@ const Priceview = () => {
           </div>
           <div className="team-item">
             <div className="row g-0 bg-light rounded overflow-hidden">
-              <div className="col-12 col-sm-5 h-100"> <img className="img-fluid h-100" src="img/BSGiang.jpg" style={{objectFit: "cover"}}/></div>
+              <div className="col-12 col-sm-5 h-100"> <img className="img-fluid h-100" src="/src/assets/img/BSGiang.jpg" style={{objectFit: "cover"}}/></div>
               <div className="col-12 col-sm-7 h-100 d-flex flex-column">
                 <div className="mt-auto p-4">
                   <h3>Bác sĩ Nguyễn Hoàng Giang</h3>
@@ -178,7 +178,7 @@ const Priceview = () => {
           </div>
           <div className="team-item">
             <div className="row g-0 bg-light rounded overflow-hidden">
-              <div className="col-12 col-sm-5 h-100"> <img className="img-fluid h-100" src="img/BSCuong.jpg" style={{objectFit: "cover"}}/></div>
+              <div className="col-12 col-sm-5 h-100"> <img className="img-fluid h-100" src="/src/assets/img/BSCuong.jpg" style={{objectFit: "cover"}}/></div>
               <div className="col-12 col-sm-7 h-100 d-flex flex-column">
                 <div className="mt-auto p-4">
                   <h3>Bác sĩ Nguyễn Đức Cường</h3>
@@ -191,7 +191,7 @@ const Priceview = () => {
           </div>
           <div className="team-item">
             <div className="row g-0 bg-light rounded overflow-hidden">
-              <div className="col-12 col-sm-5 h-100"> <img className="img-fluid h-100" src="img/BSThuy.jpg" style={{objectFit: "cover"}}/></div>
+              <div className="col-12 col-sm-5 h-100"> <img className="img-fluid h-100" src="/src/assets/img/BSThuy.jpg" style={{objectFit: "cover"}}/></div>
               <div className="col-12 col-sm-7 h-100 d-flex flex-column">
                 <div className="mt-auto p-4">
                   <h3>Bác sĩ Hoàng Thị Ngọc Thuỳ</h3>
@@ -204,7 +204,7 @@ const Priceview = () => {
           </div>
           <div className="team-item">
             <div className="row g-0 bg-light rounded overflow-hidden">
-              <div className="col-12 col-sm-5 h-100"> <img className="img-fluid h-100" src="img/BSToan.jpg" style={{objectFit: "cover"}}/></div>
+              <div className="col-12 col-sm-5 h-100"> <img className="img-fluid h-100" src="/src/assets/img/BSToan.jpg" style={{objectFit: "cover"}}/></div>
               <div className="col-12 col-sm-7 h-100 d-flex flex-column">
                 <div className="mt-auto p-4">
                   <h3>Bác sĩ Nguyễn Huy Toàn</h3>
