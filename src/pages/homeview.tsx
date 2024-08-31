@@ -1,6 +1,22 @@
+import { useEffect } from "react";
+import $ from 'jquery'
+
+
+
 
 
 const HomeView = () => {
+    useEffect(() => {
+        $(document).ready(function() {
+            $('.owl-carousel').owlCarousel({
+                items: 1,
+                loop: true,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                autoplayHoverPause: true
+            });
+        }); 
+    }, []);
     return (
       <>
       <div className="container-fluid bg-primary py-5 mb-5 hero-header">
