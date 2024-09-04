@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link, useLocation } from "react-router-dom";
 import "./footer.css"
 
 const Footer = () => {
@@ -16,7 +17,48 @@ const Footer = () => {
               </div>
               <div className="col-lg-3 col-md-6">
                 <h4 className="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Truy cập nhanh&nbsp;</h4>
-                <div className="d-flex flex-column justify-content-start"> <a className="text-light mb-2" href="#"><i className="fa fa-angle-right me-2"></i>Trang chủ</a> <a className="text-light mb-2" href="#"><i className="fa fa-angle-right me-2"></i>Về chúng tôi</a> <a className="text-light mb-2" href="#"><i className="fa fa-angle-right me-2"></i>&nbsp;Dịch vụ&nbsp; &nbsp;</a> <a className="text-light mb-2" href="#"><i className="fa fa-angle-right me-2"></i>&nbsp;Đội ngũ chuyên môn</a> <a className="text-light mb-2" href="#"><i className="fa fa-angle-right me-2"></i>Thông tin hoạt động</a> <a className="text-light" href="#"><i className="fa fa-angle-right me-2"></i>Thông tin liên hệ</a> </div>
+                <div className="d-flex flex-column justify-content-start"> 
+                <Link
+                to="/"
+                className={`nav-item nav-link ${
+                  location.pathname === "/" ? "active" : ""
+                }`}
+              >
+                Trang chủ
+              </Link>                  
+              <Link
+                to="/about"
+                className={`nav-item nav-link ${
+                  location.pathname === "/about" ? "active" : ""
+                }`}
+              >
+                Về chúng tôi
+              </Link>              
+              <Link
+                to="/service"
+                className={`nav-item nav-link ${
+                  location.pathname === "/service" ? "active" : ""
+                }`}
+              >
+                Dịch vụ
+              </Link>
+              <Link
+                to="/price"
+                className={`nav-item nav-link ${
+                  location.pathname === "/price" ? "active" : ""
+                }`}
+              >
+                Gói
+              </Link>              
+              <Link
+                to="/contact"
+                className={`nav-item nav-link ${
+                  location.pathname === "/contact" ? "active" : ""
+                }`}
+              >
+                Liên hệ
+              </Link>              
+               </div>
               </div>  
             </div>
         </div>

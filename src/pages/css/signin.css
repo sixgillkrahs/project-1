@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .body{
-    background: linear-gradient(71.17deg, #FEAF00 19.35%, #F8D442 90.12%);
+    background-color: #13C5DD;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,19 +23,20 @@
 }
 
 #wrapper #form h2{
-    margin-top: 10%;
+    margin-top: 5%;
     margin-left: 5px;
     border-left: 5px solid ;
-    border-color: #F8D442;
+    border-color: #13C5DD;
     padding-left: 5px;
 }
 
 #wrapper #form h3{
-    padding-top: 30px;
+    padding-top: 15px;
 }
 
 #wrapper #form h4{
-    padding-top: 30px;
+    padding-top: 10px;
+    font-size: larger;
 }
 
 #wrapper #input{
@@ -66,7 +67,6 @@
     color:  rgba(205, 205, 205, 1);
 }
 
-#wrapper #form #Reset,
 #wrapper #form #Signup{
     color: #F8D442;
 }

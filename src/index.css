@@ -184,7 +184,7 @@
         height: 350px;
     }
 }
-.TeamCard{
+/* .TeamCard{
     display: flex;
     flex-direction: row;
 }
@@ -198,6 +198,12 @@
 }
 .Card h6{
     color: #13C5DD;
+} */
+
+.slider .slider-items .items .img{
+    height: 44px;
+    width: 44px;
+    
 }
 
 .team-carousel .owl-nav {

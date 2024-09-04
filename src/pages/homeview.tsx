@@ -1,10 +1,6 @@
 import { useEffect } from "react";
 import $ from 'jquery'
 
-
-
-
-
 const HomeView = () => {
     useEffect(() => {
         $(document).ready(function() {
@@ -155,7 +151,7 @@ const HomeView = () => {
       </div>
   
   
-      <div className="container-fluid bg-primary my-5 py-5">
+      <div className="container-fluid bg-primary my-5 py-5" style={{backgroundColor: 'rgba(#0dcaf0)',}}>
           <div className="container py-5">
               <div className="row gx-5">
                   <div className="col-lg-6 mb-5 mb-lg-0">
@@ -225,9 +221,9 @@ const HomeView = () => {
       <div className="container-fluid py-5">
           <div className="container">
               <div className="text-center mx-auto mb-5" style={{maxWidth:"500px"}}>
-                  <h5 className="d-inline-block text-primary text-uppercase border-bottom border-5">Gói thành viên&nbsp;</h5>
-                  <h1 className="display-4">Chăm sóc liên tục &amp; <br/>
-                  toàn diện</h1>
+                  <h5 className="d-inline-block text-primary text-uppercase border-bottom border-5">Gói khám &nbsp;</h5>
+                  {/* <h1 className="display-4">Chăm sóc liên tục &amp; <br/>
+                  toàn diện</h1> */}
               </div>
               <div className="owl-carousel price-carousel position-relative" style={{padding: "0 45px 45px 45px"}}>
                   <div className="bg-light rounded text-center">
@@ -311,13 +307,13 @@ const HomeView = () => {
       </div>
   
   
-      <div className="container-fluid py-5">
+        <div className="container-fluid py-5">
           <div className="container">
               <div className="text-center mx-auto mb-5" style={{maxWidth:"500px"}}>
                   <h5 className="d-inline-block text-primary text-uppercase border-bottom border-5">Đội ngũ chuyên môn</h5>
                   <h1 className="display-4">Đào tạo theo chương trình Y Học Gia Đình</h1>
               </div>
-              <div className="owl-carousel team-carousel position-relative">
+                {/* <div className="owl-carousel team-carousel position-relative">
   <div className="team-item">
             <div className="row g-0 bg-light rounded overflow-hidden">
                       <div className="col-12 col-sm-5 h-100"> <img className="img-fluid h-100" src="/src/assets/img/BSPhanAnh.jpg" style={{objectFit:"cover"}}/></div>
@@ -379,9 +375,25 @@ const HomeView = () => {
       </div>
      </div>
     </div>
-  </div>
-</div>
-      </div>
+                </div> */}
+
+                <div className="slider">
+                    <div className="slider-items">
+                        {data.map((d)=> (
+                        <div className="items">
+                            <div className="IMG">
+                                <img src={d.img} alt="" className="h-44"/>
+                            </div>
+                            <div className="INFO">
+                                <p>{d.name}</p>
+                                <p>{d.review}</p>
+                            </div>
+                        </div>   
+                        ))}
+                    </div>
+                </div>
+            </div>
+        </div>
   
   
       <div className="container-fluid bg-primary my-5 py-5">
@@ -529,5 +541,33 @@ const HomeView = () => {
       </>
     )
   }
+
+  const data =[
+    {
+        name: 'Nguyễn Phan Anh',
+        img :'/src/assets/img/BSPhanAnh.jpg',
+        review: 'blah blah blah'
+    },
+    {
+        name: 'Nguyễn Phan Anh',
+        img :'/src/assets/img/BSPhanAnh.jpg',
+        review: 'blah blah blah'
+    },
+    {
+        name: 'Nguyễn Phan Anh',
+        img :'/src/assets/img/BSPhanAnh.jpg',
+        review: 'blah blah blah'
+    },
+    {
+        name: 'Nguyễn Phan Anh',
+        img :'/src/assets/img/BSPhanAnh.jpg',
+        review: 'blah blah blah'
+    },
+    {
+        name: 'Nguyễn Phan Anh',
+        img :'/src/assets/img/BSPhanAnh.jpg',
+        review: 'blah blah blah'
+    },
+  ]
   
   export default HomeView

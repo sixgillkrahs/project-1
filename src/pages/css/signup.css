@@ -5,7 +5,7 @@
 }
 
 .body{
-    background: linear-gradient(71.17deg, #FEAF00 19.35%, #F8D442 90.12%);
+    background-color: #13C5DD;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,19 +25,19 @@
 
 
 #wrapper #formSignUp h2{
-    margin-top: 10%;
+    margin-top: 5%;
     margin-left: 5px;
     border-left: 5px solid ;
-    border-color: #F8D442;
+    border-color: #13C5DD;
     padding-left: 5px;
 }
 
 #wrapper #formSignUp h3{
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 #wrapper #formSignUp h4{
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 #wrapper #input #Email,
@@ -51,7 +51,7 @@
 }
 
 #wrapper #formSignUp button{
-    margin-top: 45%;
+    margin-top: 50%;
     width: 415px;
     height: 44px;
     background-color: #F8D442;
@@ -59,6 +59,15 @@
     border: none;
 }
 
+#wrapper #formSignUp button:hover{
+    background-color: rgba(0, 175, 254, 1);
+    transition: 0.3s;
+}
+
 #wrapper #formSignUp h5{
-    margin-top: 15px;
+    margin-top: 20px;
+}
+
+#wrapper #form #Signin{
+    color: #13C5DD;
 }

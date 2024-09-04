@@ -18,8 +18,8 @@ const Serviceview = () => {
                           <h4 className="mb-3">Đào tạo</h4>
                           <p className="m-0">Khác với thông thường, chúng tôi đào tạo nhân lực trước khi thành lập 2 năm, nhằm đảm bảo trình độ chuyên môn, cách vận hành y tế và khả năng thấu hiểu bệnh nhân.</p>
                           <a className="btn btn-lg btn-primary rounded-pill" href="">
-                              <i className="bi bi-arrow-right"></i>
-                          </a>
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>                          </a>
+                          
                       </div>
                   </div>
                   <div className="col-lg-4 col-md-6">
@@ -29,8 +29,8 @@ const Serviceview = () => {
                           <h4 className="mb-3">Y học Gia Đình</h4>
                           <p className="m-0">Bác sĩ gia đình là người giữ sức khoẻ của mỗi bệnh nhân luôn ở trạng thái tốt nhất để họ vui sống và làm việc. Đồng hành cùng bệnh nhân như một thành viên trong gia đình thực sự</p>
                           <a className="btn btn-lg btn-primary rounded-pill" href="">
-                              <i className="bi bi-arrow-right"></i>
-                          </a>
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>                          </a>
+                          
                       </div>
                   </div>
                   <div className="col-lg-4 col-md-6">
@@ -40,8 +40,8 @@ const Serviceview = () => {
                           <h4 className="mb-3">Nghiên cứu khoa học</h4>
                           <p className="m-0">Nghiên cứu công nghệ kỹ thuật mới và y học thực chứng, nhằm đem đến những phương pháp điều trị và quản lý bệnh nhân chuẩn khoa học</p>
                           <a className="btn btn-lg btn-primary rounded-pill" href="">
-                              <i className="bi bi-arrow-right"></i>
-                          </a>
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>                          </a>
+                          
                       </div>
                   </div>
                   <div className="col-lg-4 col-md-6">
@@ -51,8 +51,8 @@ const Serviceview = () => {
                           <h4 className="mb-3">Kết nối Quốc tế</h4>
                           <p className="m-0">Chúng tôi liên kết với các trung tâm y tế lớn nhất của Mỹ, Đài Loan, Nhật Bản... để tạo thành mạng lưới y học toàn cầu</p>
                           <a className="btn btn-lg btn-primary rounded-pill" href="">
-                              <i className="bi bi-arrow-right"></i>
-                          </a>
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>                          </a>
+                          
                       </div>
                   </div>
                   <div className="col-lg-4 col-md-6">
@@ -62,8 +62,8 @@ const Serviceview = () => {
                           <h4 className="mb-3">Dược- Mỹ phẩm&nbsp;</h4>
                           <p className="m-0">Cung cấp các thuốc chuẩn GPP, các dòng mỹ phẩm chính hãng, tư vấn hỗ trợ sử dụng thuốc chuẩn quốc tế</p>
                           <a className="btn btn-lg btn-primary rounded-pill" href="">
-                              <i className="bi bi-arrow-right"></i>
-                          </a>
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>                          </a>
+                          
                       </div>
                   </div>
                   <div className="col-lg-4 col-md-6">
@@ -73,8 +73,8 @@ const Serviceview = () => {
                           <h4 className="mb-3">Cận lâm sàng</h4>
                           <p className="m-0">Đáp ứng nhu cầu từ xét nghiệm cơ bản đến chuyên sâu. Liên kết với các trung tâm xét nghiệm lớn nhất trong nước</p>
                           <a className="btn btn-lg btn-primary rounded-pill" href="">
-                              <i className="bi bi-arrow-right"></i>
-                          </a>
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>                          </a>
+                          
                       </div>
                   </div>
               </div>

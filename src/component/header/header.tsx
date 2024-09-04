@@ -9,6 +9,9 @@ const Header = () => {
       <div className="container">
         <nav className="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0">
           <a href="index.html" className="navbar-brand"></a>
+          <title>Wingman medical clinic</title>
+          <h1 className="m-0 text-uppercase text-primary"><i className="fa fa-clinic-medical me-2"></i>WINGMAN MEDICAL CLINIC</h1>
+
           <button
             className="navbar-toggler"
             type="button"
